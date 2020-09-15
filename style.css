@@ -1,9 +1,10 @@
 html {
-  background-image: linear-gradient(to right, #3da9fc, #90b4ce);
-  background-repeat: repeat;
+  background-image: linear-gradient(to left, #3da9fc, #90b4ce);
+  background-attachment: fixed;
   background-size: cover;
   font-family: Arial;
   font-size: .625rem;
+  margin: 0;
 }
 
 h1 {
@@ -21,7 +22,7 @@ h1 {
   padding: 2rem;
   box-shadow:
     0 0 0 .25rem rgba(0,0,0,0.1),
-    inset 0 0 0 .375rem #EFEFEF,
+    inset 0 0 0 .375rem whitesmoke,
     inset 0 0 1.25rem black,
     0 0 1.25rem rgba(0,0,0,0.2);
 }
@@ -43,4 +44,8 @@ h1 {
   transform: rotate(90deg);
   transition: none;
   transition-timing-function: cubic-bezier(0.29, 0.83, 0.58, 1);
+}
+
+.hour-hand {
+  background: whitesmoke;
 }
